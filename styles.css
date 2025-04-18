@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2.5em;
+    color: #444;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.outer-box {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.random-quote {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+textarea.new-quote {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    resize: none;
+}
+
+input.author-txt, input.search-btn {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button.clear-btn, button.add-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    color: #fff;
+}
+
+button.clear-btn {
+    background-color: #e74c3c;
+}
+
+button.add-btn {
+    background-color: #2ecc71;
+}
+
+button.clear-btn:hover {
+    background-color: #c0392b;
+}
+
+button.add-btn:hover {
+    background-color: #27ae60;
+}
+
+input.search-btn {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 1em;
+}
