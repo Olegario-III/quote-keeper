@@ -3,7 +3,7 @@ const firebaseConfig = {
     apiKey: "AIzaSyDW--pobxRHviOBsUY2URV9hdfsaJzMkPU",
     authDomain: "quote-keeper-d4607.firebaseapp.com",
     projectId: "quote-keeper-d4607",
-    storageBucket: "quote-keeper-d4607.firebasestorage.app",
+    storageBucket: "quote-keeper-d4607.appspot.com",
     messagingSenderId: "769114323446",
     appId: "1:769114323446:web:8a58c8debdbbba3893efd7"
   };
@@ -58,18 +58,6 @@ function addQuote() {
       alert('Please enter both a quote and an author.');
     }
   }
-
-// Function to display a random quote
-function displayRandomQuote() {
-    const quotes = loadQuotes();
-    if (quotes.length > 0) {
-        const randomIndex = Math.floor(Math.random() * quotes.length);
-        const randomQuote = quotes[randomIndex];
-        document.getElementById('random-quote').innerText = `"${randomQuote.text}" - ${randomQuote.author}`;
-    } else {
-        document.getElementById('random-quote').innerText = "No quotes available.";
-    }
-}
 
 // Function to clear input fields
 function clearInputs() {
