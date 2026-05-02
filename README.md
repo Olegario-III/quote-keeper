@@ -50,11 +50,3 @@ text## How It Works
 
 **Made with ❤️ for quote lovers**
 
-How to use:
-
-Copy everything above (from # Quote-Keeper to the end)
-Create a file named README.md in your project folder
-Paste the content
-Commit and push to GitHub
-
-Would you like me to also create a more developer-focused version with installation steps and Firebase setup guide? Just say yes.
