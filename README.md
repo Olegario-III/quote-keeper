@@ -21,10 +21,14 @@ A simple and elegant web app to read, save, and search inspirational quotes.
 ## Project Structure
 Quote-Keeper/
 ├── index.html
+
 ├── styles.css
+
 ├── script.js
+
 └── README.md
-text## How It Works
+
+## How It Works
 
 1. **Random Quote** - View a randomly selected quote from your collection
 2. **Add Quote** - Type a new quote and author, then click "Add"
