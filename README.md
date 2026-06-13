@@ -20,6 +20,7 @@ A simple and elegant web app to read, save, and search inspirational quotes.
 
 ## Project Structure
 Quote-Keeper/
+
 ├── index.html
 
 ├── styles.css
